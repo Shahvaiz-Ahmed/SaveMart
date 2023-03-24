@@ -1,0 +1,73 @@
+.App{
+    
+    color: #011C66;
+}
+
+#table{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.itemId{
+    border: 1px solid #011C66;
+    border-right: none;
+    width: 100%;
+    position: relative;
+}
+
+.itemId h6{
+    font-size: large;
+    font-weight: 400;
+    position: relative;
+    top: -1.5rem;
+    left: 1rem;
+}
+
+.itemId h2{
+    position: relative;
+    left: 1rem;
+}
+
+#searchInputs{
+    display: flex;
+    gap: 1.5rem;
+    position: relative;
+    left: 1rem;
+}
+
+.nameSearch form {
+    display: flex;
+    gap: 1.5rem;
+    position: relative;
+    left: 1rem;
+}
+
+.nameSearch table{
+    width: 100vw;
+    height: auto;
+}
+
+.nameSearch table tr{
+    text-align: initial;
+    padding: 1rem;
+    position: relative;
+    left: 1rem;
+}
+
+.nameSearch table tr th{
+    text-align: initial;
+    padding: 1rem;
+    font-size: larger;
+    max-width: 4rem;
+    line-height: 2rem;
+}
+
+.nameSearch table tr td{
+    text-align: initial;
+    padding: 1rem;
+    font-size: larger;
+    max-width: 4rem;
+    line-height: 2rem;
+}
